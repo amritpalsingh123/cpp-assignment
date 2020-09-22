@@ -1,0 +1,49 @@
+Mistakes in question 13
+// Assignment question 13.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+using namespace std;
+int main()
+{
+	int speed = 20;
+	int time = 10;
+	int distance = speed * time;
+	cout <<  Distance is  << distance << endl;
+	return 0;
+
+So the mistake was I forgot to put Distance is in "" so i corrected it
+The correction is:
+cout <<  "Distance is" << distance << endl;
+
+Mistakes in question 14
+// Assignment question 14.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+int main()
+{
+	double force = 172.5;
+	double area = 27.5;
+	double pressure = force / area;
+	cout << "Pressure is " << pressure << endl;
+	return 0;
+
+}
+I forgot to include using namespace std; next to the first line
+so i corrected it
+// Assignment question 14.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+using namespace std;
+int main()
+{
+	double force = 172.5;
+	double area = 27.5;
+	double pressure = force / area;
+	cout << "Pressure is " << pressure << endl;
+	return 0;
+
+}
+
