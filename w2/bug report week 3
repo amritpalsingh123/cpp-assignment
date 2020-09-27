@@ -1,43 +1,32 @@
 # Bug 1
 
-1. **The incorrect original code or code snippit that you wrote:**
+1. **The incorrect original code or code snippit that I wrote:**
+In question 31
 
-``` cpp
-//code with bugs or code snippet with bug goes here
+cout << "1. Area of a circle\n"
 
-//sample code
-
-// Online C++ compiler to run C++ online.
-// Write C++ code in this online editor and run it.
-
-#include <iostream>
-
-int main() {
-    std:cout << "Hello World!";
-  
-  return 0;
-}
-
-```
 
 2. **What bug does the original code have?**
-
+The bug is i missed semicolon (;)
   
 
 3. **What misunderstanding of C++ concepts lead you to this incorrect code?**
+That's i think is the typing error.
 
 4. **How to correct the bug?**
+Just put the semicolon at the end
+cout << "1. Area of a circle\n";
 
 5. **The corresponding bug-free code or code snippet is:**
-
+cout << "1. Area of a circle\n":
 ```
-bug-free code or code snippet goes here
+
 
 ```
 
 6. **What is the take-away message from this bug?**
 
----
+---The take away is to watch what i am writing , as i found this question easy so their was not much bugs.
 
 # Bug 2
 
