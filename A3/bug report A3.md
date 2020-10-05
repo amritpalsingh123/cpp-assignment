@@ -1,3 +1,4 @@
+@@ -2,7 +2,7 @@
 Bug 1:
 The incorrect original code or code snippit that you wrote:
 average = total / 3;
